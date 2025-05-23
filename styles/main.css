@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #8347e5, #6c2bd9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-bg {
+    background: linear-gradient(45deg, rgba(108, 43, 217, 0.1), rgba(131, 71, 229, 0.1));
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #a0aec0;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.button-primary {
+    background: linear-gradient(45deg, #8347e5, #6c2bd9);
+    color: white;
+}
+
+.button-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.button-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.button-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
