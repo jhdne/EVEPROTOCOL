@@ -3,10 +3,8 @@ function Tokenomics() {
         const tokenDetails = [
             { label: "Token Name", value: "$EVE" },
             { label: "Total Supply", value: "1,000,000,000" },
-            { label: "Network", value: "Solana" },
-            { label: "Type", value: "Utility Token" }
+            { label: "Network", value: "Base" },
         ];
-
         const tokenAllocation = [
             {
                 title: "Ecosystem Development Fund",
