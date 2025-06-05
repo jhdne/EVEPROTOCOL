@@ -22,7 +22,7 @@ function Header() {
                         <a href="#" data-name="logo" className="flex items-center">
                            <img 
                             src="main/eveprotoco.PNG"  // 替换为你的图片路径
-                            className="h-12 w-12 object-cover"
+                            className="h-12 w-8 object-cover"
                             loading="lazy" 
                             onError={(e) => { e.target.src = 'fallback-logo.png' }} 
                           />
