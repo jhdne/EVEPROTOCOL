@@ -22,8 +22,7 @@ function Header() {
                         <a href="#" data-name="logo" className="flex items-center">
                           <img 
                            src="https://github.com/jhdne/EVEPROTOCOL/blob/main/eveprotoco.PNG"  // 替换为你的图片路径
-                           alt="eveprotocol" 
-                           className="h-8 w-auto mr-2"  // 调整尺寸和间距
+                           className="h-12 w-auto mr-8"  // 调整尺寸和间距
                            />
                             <span className="text-xl font-bold">EVE Protocol</span>
                         </a>
