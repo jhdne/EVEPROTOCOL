@@ -20,6 +20,11 @@ function Header() {
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between h-20">
                         <a href="#" data-name="logo" className="flex items-center">
+                          <img 
+                           src="https://github.com/jhdne/EVEPROTOCOL/blob/main/eveprotoco.PNG"  // 替换为你的图片路径
+                           alt="eveprotocol" 
+                           className="h-8 w-auto mr-2"  // 调整尺寸和间距
+                           />
                             <span className="text-xl font-bold">EVE Protocol</span>
                         </a>
 
