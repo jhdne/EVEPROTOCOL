@@ -20,7 +20,6 @@ function Header() {
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between h-20">
                         <a href="#" data-name="logo" className="flex items-center">
-                            <i className="fas fa-brain text-purple-500 text-2xl mr-2"></i>
                             <span className="text-xl font-bold">EVE Protocol</span>
                         </a>
 
